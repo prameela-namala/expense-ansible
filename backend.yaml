@@ -45,7 +45,7 @@
 
 
   - name: insatll dependencies
-    ansble.builtin.command: npm install
+    ansible.builtin.command: npm install
     args:
      chdir: /app
 
