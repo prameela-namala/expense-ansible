@@ -29,7 +29,7 @@
 
    - name: copy expense file
      ansible.builtin.copy:
-      src: expense.config
+      src: expense.conf
       dest: /etc/nginx/default.d/expense.conf
 
    - name: restart nginx
