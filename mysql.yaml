@@ -2,7 +2,7 @@
   hosts: mysql
   become: yes
   vars:
-   mysql_root_password: Expenseapp@01
+   mysql_root_password: ExpenseApp@1
    login_host: mysql.prameela.online
   tasks:
    - name: ansible to install pymysql
